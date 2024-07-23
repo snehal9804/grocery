@@ -10,7 +10,7 @@ const App=()=>{
   return(
   <NavigationContainer>
     <Stack.Navigator 
-    initialRouteName='Splash'
+    initialRouteName='SignUp'
     screenOptions={{
       headerShown:false,
     }}>
@@ -22,4 +22,5 @@ const App=()=>{
   );
 };
 export default App;
+
 
